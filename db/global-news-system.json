@@ -1,0 +1,41 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "roleState": 1,
+      "default": 1,
+      "region": 1,
+      "roleId": 1,
+      "username": "admin",
+      "password": "admin123"
+    },
+    {
+      "id": 2,
+      "roleState": 1,
+      "default": 0,
+      "region": 2,
+      "roleId": 2,
+      "username": "xiaoming",
+      "password": "xiaoming123"
+    }
+  ],
+  "roles": [
+    {
+      "id": 1,
+      "roleType": 1,
+      "roleName": "超级管理员",
+      "permissions": [
+        "*"
+      ]
+    },
+    {
+      "id": 2,
+      "roleType": 2,
+      "roleName": "区域管理员",
+      "permissions": [
+        "/",
+        "/user-manage"
+      ]
+    }
+  ]
+}
