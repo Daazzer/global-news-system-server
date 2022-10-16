@@ -44,27 +44,27 @@
       "id": 1,
       "parentId": 0,
       "key": "home",
-      "title": "首页",
+      "name": "首页",
       "show": 1
     },
     {
       "id": 2,
       "parentId": 0,
       "key": "user-manage",
-      "title": "用户管理",
+      "name": "用户管理",
       "show": 1
     },
     {
       "id": 3,
       "parentId": 0,
       "key": "permission-manage",
-      "title": "权限管理",
+      "name": "权限管理",
       "show": 1
     },
     {
       "id": 4,
       "parentId": 0,
-      "title": "新闻管理",
+      "name": "新闻管理",
       "key": "news-manage",
       "show": 1
     },
@@ -72,91 +72,91 @@
       "id": 5,
       "parentId": 0,
       "key": "audit-manage",
-      "title": "审核管理",
+      "name": "审核管理",
       "show": 1
     },
     {
       "id": 6,
       "parentId": 0,
       "key": "publish-manage",
-      "title": "发布管理",
+      "name": "发布管理",
       "show": 1
     },
     {
       "id": 7,
       "parentId": 2,
       "key": "user-list",
-      "title": "用户列表",
+      "name": "用户列表",
       "show": 1
     },
     {
       "id": 8,
       "parentId": 3,
       "key": "role-list",
-      "title": "角色列表",
+      "name": "角色列表",
       "show": 1
     },
     {
       "id": 9,
       "parentId": 3,
       "key": "permission-list",
-      "title": "权限列表",
+      "name": "权限列表",
       "show": 1
     },
     {
       "id": 10,
       "parentId": 4,
       "key": "news-add",
-      "title": "撰写新闻",
+      "name": "撰写新闻",
       "show": 1
     },
     {
       "id": 11,
       "parentId": 4,
       "key": "draft",
-      "title": "草稿箱",
+      "name": "草稿箱",
       "show": 1
     },
     {
       "id": 12,
       "parentId": 4,
       "key": "news-category",
-      "title": "新闻分类",
+      "name": "新闻分类",
       "show": 1
     },
     {
       "id": 13,
       "parentId": 5,
       "key": "audit-news",
-      "title": "审核新闻",
+      "name": "审核新闻",
       "show": 1
     },
     {
       "id": 14,
       "parentId": 5,
       "key": "audit-list",
-      "title": "审核列表",
+      "name": "审核列表",
       "show": 1
     },
     {
       "id": 15,
       "parentId": 6,
       "key": "unpublished",
-      "title": "待发布",
+      "name": "待发布",
       "show": 1
     },
     {
       "id": 16,
       "parentId": 6,
       "key": "published",
-      "title": "已发布",
+      "name": "已发布",
       "show": 1
     },
     {
       "id": 17,
       "parentId": 6,
       "key": "revoked",
-      "title": "已下线",
+      "name": "已下线",
       "show": 1
     }
   ]
