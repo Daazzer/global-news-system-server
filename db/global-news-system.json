@@ -17,6 +17,15 @@
       "roleId": 2,
       "username": "xiaoming",
       "password": "xiaoming123"
+    },
+    {
+      "state": 1,
+      "default": 0,
+      "username": "xiaohong",
+      "password": "xiaohong123",
+      "region": 7,
+      "roleId": 3,
+      "id": 3
     }
   ],
   "roles": [
@@ -203,28 +212,33 @@
     },
     {
       "id": 3,
-      "label": "北美洲",
+      "label": "欧洲",
       "value": 3
     },
     {
       "id": 4,
-      "label": "南美洲",
+      "label": "北美洲",
       "value": 4
     },
     {
       "id": 5,
-      "label": "非洲",
+      "label": "南美洲",
       "value": 5
     },
     {
       "id": 6,
-      "label": "大洋洲",
+      "label": "非洲",
       "value": 6
     },
     {
       "id": 7,
-      "label": "南极洲",
+      "label": "大洋洲",
       "value": 7
+    },
+    {
+      "id": 8,
+      "label": "南极洲",
+      "value": 8
     }
   ]
 }
