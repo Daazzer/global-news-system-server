@@ -76,7 +76,6 @@
   "roles": [
     {
       "id": 1,
-      "type": 1,
       "name": "超级管理员",
       "permissions": [
         "*"
@@ -84,7 +83,6 @@
     },
     {
       "id": 2,
-      "type": 2,
       "name": "区域管理员",
       "permissions": [
         1,
@@ -105,7 +103,6 @@
     },
     {
       "id": 3,
-      "type": 3,
       "name": "区域编辑",
       "permissions": [
         1,
@@ -121,6 +118,11 @@
         16,
         17
       ]
+    },
+    {
+      "permissions": [],
+      "name": "游客",
+      "id": 4
     }
   ],
   "permissions": [
