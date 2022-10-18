@@ -35,6 +35,42 @@
       "region": 4,
       "roleId": 3,
       "id": 4
+    },
+    {
+      "state": 1,
+      "default": 0,
+      "username": "zhangsan",
+      "password": "zhangshan123",
+      "region": 6,
+      "roleId": 2,
+      "id": 5
+    },
+    {
+      "state": 1,
+      "default": 0,
+      "username": "bigbig",
+      "password": "bigbig123",
+      "region": 1,
+      "roleId": 1,
+      "id": 6
+    },
+    {
+      "state": 1,
+      "default": 0,
+      "username": "xiaobai",
+      "password": "xiaobai123",
+      "region": 1,
+      "roleId": 1,
+      "id": 7
+    },
+    {
+      "state": 1,
+      "default": 0,
+      "username": "potato",
+      "password": "potato123",
+      "region": 7,
+      "roleId": 3,
+      "id": 8
     }
   ],
   "roles": [
