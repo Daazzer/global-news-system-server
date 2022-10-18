@@ -123,6 +123,20 @@
       "permissions": [],
       "name": "游客",
       "id": 4
+    },
+    {
+      "permissions": [
+        5,
+        13,
+        14
+      ],
+      "name": "审核员",
+      "id": 5
+    },
+    {
+      "permissions": [],
+      "name": "测试角色",
+      "id": 6
     }
   ],
   "permissions": [
