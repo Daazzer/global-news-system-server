@@ -23,9 +23,18 @@
       "default": 0,
       "username": "xiaohong",
       "password": "xiaohong123",
-      "region": 7,
-      "roleId": 3,
+      "region": 2,
+      "roleId": 2,
       "id": 3
+    },
+    {
+      "state": 1,
+      "default": 0,
+      "username": "lilei",
+      "password": "lilei123",
+      "region": 4,
+      "roleId": 3,
+      "id": 4
     }
   ],
   "roles": [
