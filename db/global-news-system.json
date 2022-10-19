@@ -31,6 +31,7 @@
   "roles": [
     {
       "id": 1,
+      "default": 1,
       "name": "超级管理员",
       "menus": [
         "*"
@@ -38,6 +39,7 @@
     },
     {
       "id": 2,
+      "default": 0,
       "name": "区域管理员",
       "menus": [
         1,
@@ -58,6 +60,7 @@
     },
     {
       "id": 3,
+      "default": 0,
       "name": "区域编辑",
       "menus": [
         1,
@@ -192,14 +195,17 @@
   "regions": [
     {
       "id": 1,
+      "default": 1,
       "label": "全球"
     },
     {
       "id": 2,
+      "default": 0,
       "label": "亚洲"
     },
     {
       "id": 3,
+      "default": 0,
       "label": "欧洲"
     }
   ]
