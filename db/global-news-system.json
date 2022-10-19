@@ -4,7 +4,7 @@
       "id": 1,
       "state": 1,
       "default": 1,
-      "region": 1,
+      "regionId": 1,
       "roleId": 1,
       "username": "admin",
       "password": "admin123"
@@ -13,78 +13,24 @@
       "id": 2,
       "state": 1,
       "default": 0,
-      "region": 3,
+      "regionId": 2,
       "roleId": 2,
       "username": "xiaoming",
       "password": "xiaoming123"
-    },
-    {
-      "state": 1,
-      "default": 0,
-      "username": "xiaohong",
-      "password": "xiaohong123",
-      "region": 2,
-      "roleId": 2,
-      "id": 3
-    },
-    {
-      "state": 1,
-      "default": 0,
-      "username": "lilei",
-      "password": "lilei123",
-      "region": 4,
-      "roleId": 3,
-      "id": 4
-    },
-    {
-      "state": 1,
-      "default": 0,
-      "username": "zhangsan",
-      "password": "zhangshan123",
-      "region": 6,
-      "roleId": 2,
-      "id": 5
-    },
-    {
-      "state": 1,
-      "default": 0,
-      "username": "bigbig",
-      "password": "bigbig123",
-      "region": 1,
-      "roleId": 1,
-      "id": 6
-    },
-    {
-      "state": 1,
-      "default": 0,
-      "username": "xiaobai",
-      "password": "xiaobai123",
-      "region": 1,
-      "roleId": 1,
-      "id": 7
-    },
-    {
-      "state": 1,
-      "default": 0,
-      "username": "potato",
-      "password": "potato123",
-      "region": 7,
-      "roleId": 4,
-      "id": 8
     }
   ],
   "roles": [
     {
       "id": 1,
       "name": "超级管理员",
-      "permissions": [
+      "menus": [
         "*"
       ]
     },
     {
       "id": 2,
       "name": "区域管理员",
-      "permissions": [
+      "menus": [
         1,
         7,
         8,
@@ -104,41 +50,16 @@
     {
       "id": 3,
       "name": "区域编辑",
-      "permissions": [
+      "menus": [
         1,
         7,
         8,
         9,
         10
       ]
-    },
-    {
-      "permissions": [
-        1
-      ],
-      "name": "游客",
-      "id": 4
-    },
-    {
-      "permissions": [
-        14,
-        15,
-        16,
-        17,
-        11,
-        12,
-        13
-      ],
-      "name": "审核员",
-      "id": 5
-    },
-    {
-      "permissions": [],
-      "name": "测试角色",
-      "id": 6
     }
   ],
-  "permissions": [
+  "menus": [
     {
       "id": 1,
       "parentId": 0,
@@ -262,43 +183,15 @@
   "regions": [
     {
       "id": 1,
-      "label": "全球",
-      "value": 1
+      "label": "全球"
     },
     {
       "id": 2,
-      "label": "亚洲",
-      "value": 2
+      "label": "亚洲"
     },
     {
       "id": 3,
-      "label": "欧洲",
-      "value": 3
-    },
-    {
-      "id": 4,
-      "label": "北美洲",
-      "value": 4
-    },
-    {
-      "id": 5,
-      "label": "南美洲",
-      "value": 5
-    },
-    {
-      "id": 6,
-      "label": "非洲",
-      "value": 6
-    },
-    {
-      "id": 7,
-      "label": "大洋洲",
-      "value": 7
-    },
-    {
-      "id": 8,
-      "label": "南极洲",
-      "value": 8
+      "label": "欧洲"
     }
   ]
 }
