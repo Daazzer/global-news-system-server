@@ -190,23 +190,30 @@
       "key": "revoked",
       "name": "已下线",
       "state": 1
+    },
+    {
+      "state": 1,
+      "name": "区域列表",
+      "key": "region-list",
+      "parentId": 5,
+      "id": 18
     }
   ],
   "regions": [
     {
       "id": 1,
       "default": 1,
-      "label": "全球"
+      "name": "全球"
     },
     {
       "id": 2,
       "default": 0,
-      "label": "亚洲"
+      "name": "亚洲"
     },
     {
       "id": 3,
       "default": 0,
-      "label": "欧洲"
+      "name": "欧洲"
     }
   ]
 }
