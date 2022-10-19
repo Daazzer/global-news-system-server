@@ -17,6 +17,15 @@
       "roleId": 2,
       "username": "xiaoming",
       "password": "xiaoming123"
+    },
+    {
+      "state": 1,
+      "default": 0,
+      "username": "xiaohong",
+      "password": "xiaohong123",
+      "regionId": 3,
+      "roleId": 3,
+      "id": 3
     }
   ],
   "roles": [
