@@ -145,119 +145,119 @@
       "parentId": 0,
       "key": "home",
       "name": "首页",
-      "show": 1
+      "state": 1
     },
     {
       "id": 2,
       "parentId": 0,
       "key": "user-manage",
       "name": "用户管理",
-      "show": 1
+      "state": 1
     },
     {
       "id": 3,
       "parentId": 0,
       "key": "permission-manage",
       "name": "权限管理",
-      "show": 1
+      "state": 1
     },
     {
       "id": 4,
       "parentId": 0,
       "name": "新闻管理",
       "key": "news-manage",
-      "show": 1
+      "state": 1
     },
     {
       "id": 5,
       "parentId": 0,
       "key": "audit-manage",
       "name": "审核管理",
-      "show": 1
+      "state": 1
     },
     {
       "id": 6,
       "parentId": 0,
       "key": "publish-manage",
       "name": "发布管理",
-      "show": 1
+      "state": 1
     },
     {
       "id": 7,
       "parentId": 2,
       "key": "user-list",
       "name": "用户列表",
-      "show": 1
+      "state": 1
     },
     {
       "id": 8,
       "parentId": 3,
       "key": "role-list",
       "name": "角色列表",
-      "show": 1
+      "state": 1
     },
     {
       "id": 9,
       "parentId": 3,
       "key": "permission-list",
       "name": "权限列表",
-      "show": 1
+      "state": 1
     },
     {
       "id": 10,
       "parentId": 4,
       "key": "news-add",
       "name": "撰写新闻",
-      "show": 1
+      "state": 1
     },
     {
       "id": 11,
       "parentId": 4,
       "key": "draft",
       "name": "草稿箱",
-      "show": 1
+      "state": 1
     },
     {
       "id": 12,
       "parentId": 4,
       "key": "news-category",
       "name": "新闻分类",
-      "show": 1
+      "state": 1
     },
     {
       "id": 13,
       "parentId": 5,
       "key": "audit-news",
       "name": "审核新闻",
-      "show": 1
+      "state": 1
     },
     {
       "id": 14,
       "parentId": 5,
       "key": "audit-list",
       "name": "审核列表",
-      "show": 1
+      "state": 1
     },
     {
       "id": 15,
       "parentId": 6,
       "key": "unpublished",
       "name": "待发布",
-      "show": 1
+      "state": 1
     },
     {
       "id": 16,
       "parentId": 6,
       "key": "published",
       "name": "已发布",
-      "show": 1
+      "state": 1
     },
     {
       "id": 17,
       "parentId": 6,
       "key": "revoked",
       "name": "已下线",
-      "show": 1
+      "state": 1
     }
   ],
   "regions": [
