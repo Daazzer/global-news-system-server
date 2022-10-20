@@ -13,7 +13,7 @@
       "id": 2,
       "state": 1,
       "default": 0,
-      "regionId": 2,
+      "regionId": 3,
       "roleId": 2,
       "username": "xiaoming",
       "password": "xiaoming123"
@@ -26,6 +26,15 @@
       "regionId": 3,
       "roleId": 3,
       "id": 3
+    },
+    {
+      "state": 1,
+      "default": 0,
+      "username": "lilei",
+      "password": "lilei123",
+      "regionId": 3,
+      "roleId": 3,
+      "id": 4
     }
   ],
   "roles": [
@@ -75,6 +84,7 @@
     {
       "id": 1,
       "parentId": 0,
+      "default": 0,
       "key": "home",
       "name": "首页",
       "state": 1
@@ -82,6 +92,7 @@
     {
       "id": 2,
       "parentId": 0,
+      "default": 1,
       "key": "permission-manage",
       "name": "权限管理",
       "state": 1
@@ -89,6 +100,7 @@
     {
       "id": 3,
       "parentId": 2,
+      "default": 1,
       "key": "role-list",
       "name": "角色列表",
       "state": 1
@@ -96,6 +108,7 @@
     {
       "id": 4,
       "parentId": 2,
+      "default": 1,
       "key": "menu-list",
       "name": "菜单列表",
       "state": 1
@@ -103,6 +116,7 @@
     {
       "id": 5,
       "parentId": 0,
+      "default": 1,
       "key": "user-manage",
       "name": "用户管理",
       "state": 1
@@ -110,6 +124,7 @@
     {
       "id": 6,
       "parentId": 5,
+      "default": 1,
       "key": "user-list",
       "name": "用户列表",
       "state": 1
@@ -117,6 +132,7 @@
     {
       "id": 7,
       "parentId": 0,
+      "default": 0,
       "key": "news-manage",
       "name": "新闻管理",
       "state": 1
@@ -124,6 +140,7 @@
     {
       "id": 8,
       "parentId": 7,
+      "default": 0,
       "key": "news-add",
       "name": "撰写新闻",
       "state": 1
@@ -131,6 +148,7 @@
     {
       "id": 9,
       "parentId": 7,
+      "default": 0,
       "key": "draft",
       "name": "草稿箱",
       "state": 1
@@ -138,6 +156,7 @@
     {
       "id": 10,
       "parentId": 7,
+      "default": 0,
       "key": "news-category",
       "name": "新闻分类",
       "state": 1
@@ -145,6 +164,7 @@
     {
       "id": 11,
       "parentId": 0,
+      "default": 0,
       "key": "audit-manage",
       "name": "审核管理",
       "state": 1
@@ -152,6 +172,7 @@
     {
       "id": 12,
       "parentId": 11,
+      "default": 0,
       "key": "audit-news",
       "name": "审核新闻",
       "state": 1
@@ -159,6 +180,7 @@
     {
       "id": 13,
       "parentId": 11,
+      "default": 0,
       "key": "audit-list",
       "name": "审核列表",
       "state": 1
@@ -166,6 +188,7 @@
     {
       "id": 14,
       "parentId": 0,
+      "default": 0,
       "key": "publish-manage",
       "name": "发布管理",
       "state": 1
@@ -173,6 +196,7 @@
     {
       "id": 15,
       "parentId": 14,
+      "default": 0,
       "key": "unpublished",
       "name": "待发布",
       "state": 1
@@ -180,6 +204,7 @@
     {
       "id": 16,
       "parentId": 14,
+      "default": 0,
       "key": "published",
       "name": "已发布",
       "state": 1
@@ -187,6 +212,7 @@
     {
       "id": 17,
       "parentId": 14,
+      "default": 0,
       "key": "revoked",
       "name": "已下线",
       "state": 1
@@ -195,6 +221,7 @@
       "state": 1,
       "name": "区域列表",
       "key": "region-list",
+      "default": 1,
       "parentId": 5,
       "id": 18
     }
@@ -214,6 +241,11 @@
       "id": 3,
       "default": 0,
       "name": "欧洲"
+    },
+    {
+      "default": 0,
+      "name": "测试区域",
+      "id": 4
     }
   ]
 }
