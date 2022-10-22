@@ -307,7 +307,7 @@
       "id": 5
     },
     {
-      "publishState": 2,
+      "publishState": 3,
       "userId": 1,
       "createTime": 1666427381858,
       "publishTime": 0,
@@ -318,19 +318,6 @@
       "content": "<p>dsadasdsa</p>\n",
       "auditState": 2,
       "id": 6
-    },
-    {
-      "publishState": 2,
-      "userId": 1,
-      "createTime": 1666431323372,
-      "publishTime": 0,
-      "star": 0,
-      "view": 9,
-      "title": "新标题1",
-      "categoryId": 3,
-      "content": "<p>撒大苏打飒飒大大低洼大厦公司</p>\n",
-      "auditState": 2,
-      "id": 7
     },
     {
       "publishState": 2,
@@ -368,7 +355,7 @@
       "title": "dsadsa",
       "categoryId": 1,
       "content": "<p>dsadsadasdasdasda</p>\n",
-      "auditState": 0,
+      "auditState": 2,
       "id": 10
     },
     {
