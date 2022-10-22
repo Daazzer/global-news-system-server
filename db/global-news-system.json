@@ -229,62 +229,6 @@
       "default": 1,
       "parentId": 5,
       "id": 18
-    },
-    {
-      "state": 1,
-      "default": 0,
-      "name": "测试菜单",
-      "key": "test",
-      "parentId": 0,
-      "id": 19
-    },
-    {
-      "state": 1,
-      "default": 0,
-      "name": "测试菜单1",
-      "key": "test1",
-      "parentId": 19,
-      "id": 20
-    },
-    {
-      "state": 1,
-      "default": 0,
-      "name": "测试菜单2",
-      "key": "test2",
-      "parentId": 19,
-      "id": 21
-    },
-    {
-      "state": 1,
-      "default": 0,
-      "name": "测试菜单11",
-      "key": "test11",
-      "parentId": 20,
-      "id": 22
-    },
-    {
-      "state": 1,
-      "default": 0,
-      "name": "测试菜单21",
-      "key": "test21",
-      "parentId": 21,
-      "id": 23
-    },
-    {
-      "state": 1,
-      "default": 0,
-      "name": "测试菜单12",
-      "key": "test12",
-      "parentId": 20,
-      "id": 24
-    },
-    {
-      "state": 1,
-      "default": 0,
-      "name": "测试菜单22",
-      "key": "test22",
-      "parentId": 21,
-      "id": 25
     }
   ],
   "regions": [
