@@ -320,7 +320,7 @@
       "id": 9
     },
     {
-      "publishState": 1,
+      "publishState": 2,
       "userId": 1,
       "createTime": 1666439678063,
       "publishTime": 0,
@@ -357,6 +357,19 @@
       "content": "<p>csacswadwa</p>\n",
       "auditState": 3,
       "id": 12
+    },
+    {
+      "publishState": 2,
+      "userId": 1,
+      "createTime": 1666531479897,
+      "publishTime": 0,
+      "star": 0,
+      "view": 9,
+      "title": "新增新闻",
+      "categoryId": 2,
+      "content": "<p>dsadsadsadsa</p>\n",
+      "auditState": 2,
+      "id": 13
     }
   ],
   "categories": [
