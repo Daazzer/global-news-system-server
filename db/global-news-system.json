@@ -8,7 +8,8 @@
       "roleId": 1,
       "username": "admin",
       "password": "admin123",
-      "likes": []
+      "likes": [],
+      "views": []
     }
   ],
   "roles": [
@@ -229,17 +230,43 @@
   ],
   "news": [
     {
-      "publishState": 1,
+      "publishState": 2,
       "userId": 1,
       "createTime": 1666415974164,
       "publishTime": 0,
       "like": 0,
-      "view": 9,
+      "view": 0,
       "title": "修改1",
       "categoryId": 2,
-      "content": "<p>dsadsadascsacsaca</p>\n",
-      "auditState": 0,
+      "content": "<p>哈哈哈哈哈哈哈哈</p>\n",
+      "auditState": 2,
       "id": 3
+    },
+    {
+      "publishState": 2,
+      "userId": 1,
+      "createTime": 1666597775897,
+      "publishTime": 0,
+      "like": 0,
+      "view": 0,
+      "title": "新增新闻",
+      "categoryId": 1,
+      "content": "<p>dsadasdsacsacsacsacascas</p>\n",
+      "auditState": 2,
+      "id": 4
+    },
+    {
+      "publishState": 2,
+      "userId": 1,
+      "createTime": 1666597818170,
+      "publishTime": 0,
+      "like": 0,
+      "view": 0,
+      "title": "_.unionBy([arrays], [iteratee=_.identity])",
+      "categoryId": 3,
+      "content": "<h4 style=\"text-align:start;\"><span style=\"color: rgb(28,30,33);font-size: 16px;font-family: system-ui, -apple-system, \"Segoe UI\", Roboto, Ubuntu, Cantarell, \"Noto Sans\", sans-serif, BlinkMacSystemFont, \"Segoe UI\", Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol;\">添加版本</span></h4>\n<p style=\"text-align:start;\"><span style=\"color: rgb(28,30,33);font-size: 16px;font-family: system-ui, -apple-system, \"Segoe UI\", Roboto, Ubuntu, Cantarell, \"Noto Sans\", sans-serif, BlinkMacSystemFont, \"Segoe UI\", Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol;\">4.0.0</span></p>\n<h4 style=\"text-align:start;\"><span style=\"color: rgb(28,30,33);font-size: 16px;font-family: system-ui, -apple-system, \"Segoe UI\", Roboto, Ubuntu, Cantarell, \"Noto Sans\", sans-serif, BlinkMacSystemFont, \"Segoe UI\", Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol;\">参数</span></h4>\n<ol>\n<li><span style=\"color: rgb(28,30,33);font-size: 16px;font-family: system-ui, -apple-system, \"Segoe UI\", Roboto, Ubuntu, Cantarell, \"Noto Sans\", sans-serif, BlinkMacSystemFont, \"Segoe UI\", Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol;\"><code>[arrays]</code></span> <span style=\"color: rgb(28,30,33);font-size: 16px;font-family: system-ui, -apple-system, \"Segoe UI\", Roboto, Ubuntu, Cantarell, \"Noto Sans\", sans-serif, BlinkMacSystemFont, \"Segoe UI\", Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol;\"><em>(...Array)</em>: 要检查的数组。</span></li>\n<li><span style=\"color: rgb(28,30,33);font-size: 16px;font-family: system-ui, -apple-system, \"Segoe UI\", Roboto, Ubuntu, Cantarell, \"Noto Sans\", sans-serif, BlinkMacSystemFont, \"Segoe UI\", Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol;\"><code>[iteratee=_.identity]</code></span> <span style=\"color: rgb(28,30,33);font-size: 16px;font-family: system-ui, -apple-system, \"Segoe UI\", Roboto, Ubuntu, Cantarell, \"Noto Sans\", sans-serif, BlinkMacSystemFont, \"Segoe UI\", Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol;\"><em>(Array|Function|Object|string)</em>: 迭代函数，调用每个元素。</span></li>\n</ol>\n<h4 style=\"text-align:start;\"><span style=\"color: rgb(28,30,33);font-size: 16px;font-family: system-ui, -apple-system, \"Segoe UI\", Roboto, Ubuntu, Cantarell, \"Noto Sans\", sans-serif, BlinkMacSystemFont, \"Segoe UI\", Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol;\">返回</span></h4>\n<p style=\"text-align:start;\"><span style=\"color: rgb(28,30,33);font-size: 16px;font-family: system-ui, -apple-system, \"Segoe UI\", Roboto, Ubuntu, Cantarell, \"Noto Sans\", sans-serif, BlinkMacSystemFont, \"Segoe UI\", Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol;\"><em>(Array)</em>: 返回一个新的联合数组。</span>&nbsp;</p>\n",
+      "auditState": 2,
+      "id": 5
     }
   ],
   "categories": [
