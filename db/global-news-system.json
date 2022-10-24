@@ -7,34 +7,8 @@
       "regionId": 1,
       "roleId": 1,
       "username": "admin",
-      "password": "admin123"
-    },
-    {
-      "id": 2,
-      "state": 1,
-      "default": 0,
-      "regionId": 3,
-      "roleId": 2,
-      "username": "xiaoming",
-      "password": "xiaoming123"
-    },
-    {
-      "state": 1,
-      "default": 0,
-      "username": "xiaohong",
-      "password": "xiaohong123",
-      "regionId": 3,
-      "roleId": 3,
-      "id": 3
-    },
-    {
-      "state": 1,
-      "default": 0,
-      "username": "lilei",
-      "password": "lilei123",
-      "regionId": 3,
-      "roleId": 3,
-      "id": 4
+      "password": "admin123",
+      "likes": []
     }
   ],
   "roles": [
@@ -259,117 +233,13 @@
       "userId": 1,
       "createTime": 1666415974164,
       "publishTime": 0,
-      "star": 0,
+      "like": 0,
       "view": 9,
       "title": "修改1",
       "categoryId": 2,
       "content": "<p>dsadsadascsacsaca</p>\n",
       "auditState": 0,
       "id": 3
-    },
-    {
-      "publishState": 1,
-      "userId": 2,
-      "createTime": 1666416058965,
-      "publishTime": 0,
-      "star": 0,
-      "view": 9,
-      "title": "修改标题3",
-      "categoryId": 1,
-      "content": "<p>的我哥哥</p>\n",
-      "auditState": 0,
-      "id": 5
-    },
-    {
-      "publishState": 3,
-      "userId": 1,
-      "createTime": 1666427381858,
-      "publishTime": 0,
-      "star": 0,
-      "view": 9,
-      "title": "新增1",
-      "categoryId": 1,
-      "content": "<p>dsadasdsa</p>\n",
-      "auditState": 2,
-      "id": 6
-    },
-    {
-      "publishState": 2,
-      "userId": 1,
-      "createTime": 1666432252938,
-      "publishTime": 0,
-      "star": 0,
-      "view": 9,
-      "title": "新的新闻",
-      "categoryId": 1,
-      "content": "<p>倒萨倒萨倒萨十大打撒</p>\n",
-      "auditState": 2,
-      "id": 8
-    },
-    {
-      "publishState": 1,
-      "userId": 1,
-      "createTime": 1666436050191,
-      "publishTime": 0,
-      "star": 0,
-      "view": 9,
-      "title": "达瓦",
-      "categoryId": 2,
-      "content": "<p>dsadsadsa</p>\n",
-      "auditState": 3,
-      "id": 9
-    },
-    {
-      "publishState": 2,
-      "userId": 1,
-      "createTime": 1666439678063,
-      "publishTime": 0,
-      "star": 0,
-      "view": 9,
-      "title": "dsadsa",
-      "categoryId": 1,
-      "content": "<p>dsadsadasdasdasda</p>\n",
-      "auditState": 2,
-      "id": 10
-    },
-    {
-      "publishState": 1,
-      "userId": 1,
-      "createTime": 1666440104222,
-      "publishTime": 0,
-      "star": 0,
-      "view": 9,
-      "title": "新增新闻1",
-      "categoryId": 2,
-      "content": "<p>天人合一天津房价反弹建议添加一条</p>\n",
-      "auditState": 0,
-      "id": 11
-    },
-    {
-      "publishState": 1,
-      "userId": 1,
-      "createTime": 1666440160149,
-      "publishTime": 0,
-      "star": 0,
-      "view": 9,
-      "title": "我我我我",
-      "categoryId": 1,
-      "content": "<p>csacswadwa</p>\n",
-      "auditState": 3,
-      "id": 12
-    },
-    {
-      "publishState": 2,
-      "userId": 1,
-      "createTime": 1666531479897,
-      "publishTime": 0,
-      "star": 0,
-      "view": 9,
-      "title": "新增新闻",
-      "categoryId": 2,
-      "content": "<p>dsadsadsadsa</p>\n",
-      "auditState": 2,
-      "id": 13
     }
   ],
   "categories": [
