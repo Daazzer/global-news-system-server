@@ -8,8 +8,13 @@
       "roleId": 1,
       "username": "admin",
       "password": "admin123",
-      "likes": [],
-      "views": []
+      "likes": [
+        3
+      ],
+      "views": [
+        3,
+        4
+      ]
     }
   ],
   "roles": [
@@ -234,8 +239,8 @@
       "userId": 1,
       "createTime": 1666415974164,
       "publishTime": 0,
-      "like": 0,
-      "view": 0,
+      "like": 1,
+      "view": 1,
       "title": "修改1",
       "categoryId": 2,
       "content": "<p>哈哈哈哈哈哈哈哈</p>\n",
@@ -248,7 +253,7 @@
       "createTime": 1666597775897,
       "publishTime": 0,
       "like": 0,
-      "view": 0,
+      "view": 1,
       "title": "新增新闻",
       "categoryId": 1,
       "content": "<p>dsadasdsacsacsacsacascas</p>\n",
